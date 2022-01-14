@@ -1,0 +1,11 @@
+.section {
+    padding: 5px;
+}
+
+.section__header {
+    font-weight: normal;
+    color: rgb(106, 43, 128);
+    padding: 7px;
+    background-color: #eee;
+    border-left: 2px solid rgb(106, 43, 128);
+}

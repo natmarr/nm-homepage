@@ -1,0 +1,33 @@
+.table {
+    font-family: 'Montserrat', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__caption {
+    caption-side: top;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.table__row:nth-child(even) {
+    background-color: #eee;
+}
+
+.table__row:hover {
+    background-color: #ddd;
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__header {
+    background-color: #8b6d92;
+    color: white;
+    font-weight: normal;
+}

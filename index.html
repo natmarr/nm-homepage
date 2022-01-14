@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/tableContainer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Poiret+One&display=swap"
+        rel="stylesheet">
+    <title>Natalia Marcinowska - wizytówka</title>
+</head>
+
+<body class="body js-body">
+    <p>
+        <button class="changeBackgroundButton js-changeBackgroundButton">Włącz <span class="js-themeName">szare</span>
+            tło strony.
+        </button>
+    </p>
+    <div class="container">
+        <header class="header">
+            <img class="header__image" src="images/NataliaM..jpg" alt="Natalia Marcinowska">
+            <h1> Natalia Marcinowska</h1>
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li>
+                    <a class="navigation__link" href="#o-mnie">O mnie</a>
+                </li>
+                <li>
+                    <a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
+                </li>
+                <li>
+                    <a class="navigation__link" href="#inne-pasje">Inne pasje</a>
+                </li>
+                <li>
+                    <a class="navigation__link" href="#spis-ksiazek">Spis Książek</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section id="o-mnie" class="section">
+                <h2 class="section__header">O mnie</h2>
+                <p>
+                    Jestem absolwentką kierunku Matematyka - zastosowania matematyki w ekonomii na
+                    Politechnice Rzeszowskiej im. Ignacego Łukasiewicza. Wybrałam studia matematyczne, ponieważ
+                    lubię liczby i wszelkie analizy z nimi związane.
+                </p>
+            </section>
+            <section id="zainteresowania" class="section">
+                <h2 class="section__header">Zainteresowania</h2>
+                <p>
+                    Od roku interesuję się programowaniem. Na początku sama się uczyłam przy pomocy materiałów z
+                    internetu.
+                    Niestety
+                    zajmowało mi to dużo czasu i moja wiedza ciągle była niekompletna. Dlatego postanowiłam zacząć kurs
+                    z YouCode.
+                </p>
+            </section>
+            <section id="inne-pasje" class="section">
+                <h2 class="section__header">Inne pasje</h2>
+                <p>
+                    W wolnym czasie lubię czytać książki. Nie mam ulubionej kategorii książek i czytam na przemian
+                    różne. Dla
+                    dobrej książki jestem w stanie zarwać nockę.
+                </p>
+            </section>
+            <section id="spis-ksiazek" class="section">
+                <h2 class="section__header">Spis książek</h2>
+                <div class="tableContainer">
+                    <table class="table">
+                        <caption class="table__caption">Książki, które ostatnio przeczytałam.
+                        </caption>
+                        <thead>
+                            <tr class="table__row">
+                                <th class="table__cell table__header" scope="col">Autor</th>
+                                <th class="table__cell table__header" scope="col">Tytuł</th>
+                                <th class="table__cell table__header" scope="col">Kategoria</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table__row">
+                                <th class="table__cell table__header" scope="row">Sara Gay-Forden</th>
+                                <td class="table__cell">Dom Gucci. Potęga mody, szaleństwo pieniędzy, gorycz upadku.
+                                </td>
+                                <td class="table__cell">biografia, pamiętnik</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__header" scope="row">Remigiusz Mróz</th>
+                                <td class="table__cell">Przepaść</td>
+                                <td class="table__cell">kryminał, sensacja, thriller</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__header" scope="row">Colleen Hoover</th>
+                                <td class="table__cell">It Ends with Us</td>
+                                <td class="table__cell">literatura obyczajowa, romans</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__header" scope="row" rowspan="2">Przemysław Piotrowski</th>
+                                <td class="table__cell">Piętno</td>
+                                <td class="table__cell">kryminał, sensacja, thriller</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell">Sfora</td>
+                                <td class="table__cell">kryminał, sensacja, thriller</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        Copyright by Natalia Marcinowska.
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.changeBackgroundButton {
+    border: 2px solid rgb(106, 43, 128);
+    color: rgb(106, 43, 128);
+    background-color: #eee;
+    padding: 6px;
+    margin: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    padding: 10px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+

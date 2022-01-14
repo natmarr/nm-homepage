@@ -1,0 +1,23 @@
+.navigation {
+    padding: 5px;
+    border-bottom: 1px solid rgb(106, 43, 128);
+}
+
+.navigation__list {
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation__link {
+    color: rgb(106, 43, 128);
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: rgb(192, 151, 216);
+}
+
+.navigation__link:active {
+    color: black;
+}

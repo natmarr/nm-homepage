@@ -1,0 +1,16 @@
+.header {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
+    background-image: url("../images/do-strony-homepage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header__image {
+    background-color: #FFFFFF;
+    box-shadow: 16px 4px 12px 3px white;
+}
