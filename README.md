@@ -1,2 +1,2 @@
-#Natalia Marcinowska - Homepage
+# Natalia Marcinowska - Homepage
 https://natmarr.github.io/nm-homepage/
