@@ -1,15 +1,31 @@
-console.log("Hello word!");
+{
+    const welcome = () => {
+        console.log("Hello word!");
+    };
 
-let changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
-let body = document.querySelector(".js-body");
-let themeName = document.querySelector(".js-themeName");
+    const toggleBackground = () => {
+        const body = document.querySelector(".js-body");
+        const themeName = document.querySelector(".js-themeName");
 
-changeBackgroundButton.addEventListener("click", () => {
-    body.classList.toggle("body--grey");
+        body.classList.toggle("body--grey");
 
-    if (body.classList.contains("body--grey")) {
-        themeName.innerText = "białe";
-    } else {
-        themeName.innerText = "szare";
-    }
-});
+        if (body.classList.contains("body--grey")) {
+            themeName.innerText = "białe";
+        } else {
+            themeName.innerText = "szare";
+        }
+    };
+
+    const init = () => {
+        const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
+
+        changeBackgroundButton.addEventListener("click", toggleBackground);
+
+        welcome();
+    };
+
+    init();
+
+}
+
+
