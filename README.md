@@ -6,7 +6,7 @@ https://natmarr.github.io/nm-homepage/
 - CSS
 - BEM
 - JavaScript
-- ES6+ Features
+- ES6+ 
 ## Description
 This is my personal homepage where you can find basic information about me, my interests, hobbies and books I read recently. The web page is in Polish language. 
 
