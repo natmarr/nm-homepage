@@ -1,5 +1,5 @@
 # Homepage - Natalia Marcinowska 
-## Link to the website
+## Link to a website
 https://natmarr.github.io/nm-homepage/
 ## Technologies used
 - HTML
